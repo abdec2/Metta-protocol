@@ -101,7 +101,7 @@ function Presale() {
                 {account && (
                     <>
                         <p className='text-sm'>BNB Balance: {bnbBalance}</p>
-                        <p className='text-sm'>Your MTP Balance: {tokenBalance} </p>
+                        <p className='text-sm'>Your Metta Balance: {tokenBalance} </p>
                     </>
                 )}
                 <form onSubmit={buyToken}>
